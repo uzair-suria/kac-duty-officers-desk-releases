@@ -38,3 +38,7 @@ The private source repository builds Windows, macOS, Android and iOS artifacts
 with GitHub Actions. Its **Publish release** workflow creates the private
 release and mirrors the same tag, notes and assets to this repository. Do not
 upload files here manually; the workflow is the source of truth.
+
+GitHub adds its standard **Source code (zip)** and **Source code (tar.gz)**
+links to every release. Because this repository contains only this README,
+those archives contain the README and no application source code.
